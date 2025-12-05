@@ -1159,7 +1159,7 @@ function selectVisit(element) {
         });
 
         // ★GASのWebアプリURL（必ず /exec を使う）
-        const WEBAPP_URL = 'https://script.google.com/macros/s/AKfycbyCI4jHD6ZBhrqRf4Hu4pZiU0O8DzU_YTAGFXrhS8aOaO2zKWxf1pfeOldIr7NXwNChBg/exec';
+        const WEBAPP_URL = 'https://script.google.com/macros/s/AKfycbxCyjsURez8WJvCBsLJySy0BGAkk04KJEcrx6XLLFjFhlNcd5CBtHPJKabPj8V1A7ax/exec';
 
         // JP → ISO(+09:00)
         function jpToISO(jp) {
@@ -1326,7 +1326,7 @@ async function submitForm() {
 
             // ★キャッシュバスター（force時は &cb=timestamp を付与）
             const url =
-                'https://script.google.com/macros/s/AKfycby5ADBz29w04B0oL9H81u2eO9H97uGobWftYWm-q1KZEXpzhFeCzoFLWVLy4rTpcGWT/exec' +
+                'https://script.google.com/macros/s/AKfycbz7ZYEEv8bFE2qasZYDhZXrmAOtPgnBnwwkAKeDrU9abdl1SpBJyfqXDp0OVMtkJI2c4w/exec' +
                 `?startTime=${startTime.toISOString()}&endTime=${endTime.toISOString()}${force ? `&cb=${Date.now()}` : ''}`;
 
             try {
@@ -1654,3 +1654,4 @@ async function submitForm() {
 </body>
 
 </html>
+
